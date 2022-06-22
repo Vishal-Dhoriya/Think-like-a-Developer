@@ -48,7 +48,7 @@
 .navbar .menu li a {
 
     color: black;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     margin-left: 25px;
 
@@ -155,7 +155,7 @@ section {
     padding-bottom: 111px;
     text-align: center;
     size: 100px;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .about .line span {
@@ -243,7 +243,7 @@ section {
     padding-bottom: 111px;
     text-align: center;
     size: 100px;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .proj .line span ,.contact .line span{
@@ -650,6 +650,95 @@ section {
 @media(max-width:950px) {
 
     .max-width {
+padding-right: 300px;
+
+       max-width: 930px;
+    }
+
+    .navbar .menu {
+
+        align-items: flex-start;
+
+
+    }
+
+    .navbar .logo a span {
+
+        color: white;
+
+    }
+
+    .navbar .logo a {
+        color: white;
+        display: none;
+    }
+
+    .navbar.logo {
+        background-color: white;
+        color: white;
+
+    }
+
+    .navbar .menu {
+        display: flex;
+        flex-direction: row;
+        font-size: 0 5px;
+
+        position: initial;
+
+    }
+
+    .home .home-content .text-2 {
+        font-size: 70px;
+    }
+    .home .home-content .text-3 {
+        font-size: 35px;
+    }
+    .home .home-content a {
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+
+    .about .about-contents .column,
+    .proj .ab-contents .column {
+
+        width: 100%;
+    }
+
+    .about .about-contents .columnleft,
+    .proj .ab-contents .columnleft {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+
+    .about .about-contents .columnright,
+    .proj .ab-contents .columnright {
+        flex: 100%;
+    }
+
+    .proj .proj-content .column, .contact .contact-content .column {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+}
+
+@media(max-width:840px) {
+
+
+
+    .navbar.menu.li a{
+
+
+
+        color: black;
+    font-size: 8px;
+    font-weight: 500;
+    margin-left: 25px;
+    };
+
+    .max-width {
 
 
        max-width: 930px;
@@ -670,6 +759,7 @@ section {
 
     .navbar .logo a {
         color: white;
+        display: none;
     }
 
     .navbar.logo {
@@ -680,7 +770,7 @@ section {
 
     .navbar .menu {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         font-size: 0 5px;
 
         position: initial;
@@ -726,8 +816,6 @@ section {
 
 
 
-
-
 @media (max-width: 690px) {
     .max-width {
         padding: 0 23px;
@@ -767,3 +855,4 @@ section {
     }
     
 }
+
